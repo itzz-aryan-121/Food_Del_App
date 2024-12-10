@@ -37,3 +37,23 @@ a {
     width: 90%;
   }
 }
+
+/* Default Theme Variables */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #49557e;
+  --secondary-color: #ff4c24;
+  --button-bg: linear-gradient(135deg, #ff4c24, #ff7a18);
+  --button-text: #ffffff;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --primary-color: #a9a9a9;
+  --secondary-color: #ff7a18;
+  --button-bg: linear-gradient(135deg, #ff7a18, #ff4c24);
+  --button-text: #000000;
+}
